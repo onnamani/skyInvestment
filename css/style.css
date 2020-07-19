@@ -191,3 +191,49 @@ img {
 .footer .social > * {
   margin-right: 30px;
 }
+
+/* Mobile */
+@media(max-width: 768px) {
+  .hero .content h1 {
+    font-size: 35px;
+  }
+  .hero .content p,
+  .hero .content a {
+    font-size: 20px;
+  }
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 1px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column, 
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img {
+    width: 70%;
+  }
+}
+
+@media(min-width: 800px) and (max-width: 1024px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0 5px;
+  }
+  .navbar a {
+    padding: 20px;
+    margin: 5px;
+  }
+}
