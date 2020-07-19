@@ -109,6 +109,11 @@ img {
   background: rgba(0,0,0,0.6);
 }
 
+.hero.blog {
+  background: url('https://images.pexels.com/photos/34601/pexels-photo.jpg?cs=srgb&dl=coffee-notebook-writing-computer-34601.jpg&fm=jpg') no-repeat center center/cover;
+  height: 30vh;
+}
+
 .hero * {
   z-index: 10;
 }
